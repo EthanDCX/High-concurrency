@@ -3,6 +3,7 @@ package com.dcx.concurrency.example.concurrent;
 import com.dcx.concurrency.annoations.ThreadSafe;
 import lombok.extern.slf4j.Slf4j;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.CountDownLatch;
@@ -19,6 +20,8 @@ public class CopyOnWriteArrayListExample {
 
     // 同时并发执行的线程数
     public static int threadTotal = 200;
+
+//    private static List<Integer> list = new ArrayList<>();
 
     private static List<Integer> list = new CopyOnWriteArrayList<>();
 

@@ -19,7 +19,7 @@ public class DateFormatExample3 {
     public static int clientTotal = 5000;
 
     // 同时并发执行的线程数
-    public static int threadTotal = 200;
+    public static int threadTotal = 1;
 
     private static DateTimeFormatter dateTimeFormatter = DateTimeFormat.forPattern("yyyyMMdd");
 

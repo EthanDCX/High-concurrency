@@ -21,6 +21,7 @@ public class ThreadPoolExample3 {
                 }
             });
         }
+
         System.out.println("main output");
         executorService.shutdown();
     }

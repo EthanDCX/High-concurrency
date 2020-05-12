@@ -44,7 +44,6 @@ public class CollectionsExample1 {
         executorService.shutdown();
         log.info("size:{}", list.size());
     }
-
     private static void update(int i) {
         list.add(i);
     }
